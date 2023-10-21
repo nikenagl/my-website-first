@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Kredit Rumah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <nav>
+            <div class="nama"><h2>PROGRAM KREDIT RUMAH</h2></div>
+        </nav>
+   
+    <main>
+        <img src="rumah.jpeg" alt="Rumah" />
+        <div id="form">
+            
+          <main>
+          <form>
+            <h2>Cicilan Kredit</h2>
+            <div class="input-section">
+              <label for="tipeRumah">Tipe Rumah</label>
+              <select name="tipeRumah" id="tipeRumah">
+                <option value="Alamanda">Alamanda</option>
+                
+                <option value="Mawar">Mawar</option>
+              </select>
+            </div>
+            <label for="HargaRumah">Harga Rumah</label>
+            <input type="text" id="HargaRumah" disabled>
+            <div class="input-section">
+              <label for="Tempo">Tempo Kredit</label>
+              <input
+                type="number"
+                name="Tempo"
+                id="Tempo"
+                min="0"
+                value="0"
+              />
+            </div>
+            
+            <label for="UangMuka">Uang Muka</label>
+            <input type="text" id="UangMuka" disabled>
+            <label for="Angsuran">Angsuran</label>
+            <input type="text" id="Angsuran" disabled>
+            <div class="button-section">
+              <input type="button" value="Proses" id="tombolProses" />
+              <div></div>
+              <input type="reset" value="Reset" />
+            </div>
+          </form>
+    </main>
+    <div class="card">
+        <div class="card-body">
+        </div>
+        <div id="harga">
+            <h2>Daftar Harga</h2>
+            <div class="input-section">
+              <label for="alamanda">Alamanda</label>
+              <input
+                type="text"
+                name="alamanda"
+                id="alamanda"
+                value="Rp. 120.000.000,00"
+                disabled
+              />
+            </div>
+            <div class="input-section">
+              <label for="mawar">Mawar</label>
+              <input
+                type="text"
+                name="mawar"
+                id="mawar"
+                value="Rp. 130.000.000,00"
+                disabled
+              />
+           
+</div>
+        </div>
+    </div>
+    
+<footer>
+  <p>&copy; Niken Angelina</p>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
